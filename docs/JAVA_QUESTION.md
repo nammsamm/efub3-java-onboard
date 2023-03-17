@@ -1,7 +1,8 @@
 <details>
 <summary>Java에서 제공하는 원시 타입들에 무엇이 있고, 각각 몇 바이트를 차지하나요?</summary>
 <div markdown="1">
-//primitive(원시)타입에는 문자형인 char(2byte), 정수형인 byte(1byte), short(2byte), int(4byte), long(8byte)가 있다. 그리고 실수형인 `float`(4byte), `double`(8byte), 논리형인 boolean(1byte)가 있다.
+//
+ primitive(원시)타입에는 문자형인 char(2byte), 정수형인 byte(1byte), short(2byte), int(4byte), long(8byte)가 있다. 그리고 실수형인 `float`(4byte), `double`(8byte), 논리형인 boolean(1byte)가 있다.
 </div>
 </details>
 <br>
@@ -54,7 +55,8 @@
 <details>
 <summary>JVM의 동작 방식에 대해 설명해 주세요.</summary>
 <div markdown="1">
-// 자바프로그램을 컴파일 해서 나온 바이트코드를 실행시켜주는 역활을 한다. 사람이 작성한 Java 코드를 실행하면 해당 코드가 바이트 코드로 컴파일된다. 
+// 
+ 자바프로그램을 컴파일 해서 나온 바이트코드를 실행시켜주는 역활을 한다. 사람이 작성한 Java 코드를 실행하면 해당 코드가 바이트 코드로 컴파일된다. 
   이렇게 컴파일된 바이트 코드는 클래스 로더에서의 동적 로딩을 통해 각 런타임 영역에 할당된다. 그리고 할당된 바이트코드는 익스큐션 엔진에 의해 명령어 하나씩 실행된다.
 </div>
 </details>
@@ -83,7 +85,8 @@
 <details>
 <summary>new String()과 리터럴(" ")의 차이에 대해 설명해주세요.</summary>
 <div markdown="1">
-// -new String()은 new를 사용하기 때문에 heap 영역에 새로운 주소가 할당된다. String의 내용이 같다고 하더라도 heap 영역에서 새로운 주소를 할당받기 때문에 String 끼리의 주소는 다르다.<br>
+// 
+ -new String()은 new를 사용하기 때문에 heap 영역에 새로운 주소가 할당된다. String의 내용이 같다고 하더라도 heap 영역에서 새로운 주소를 할당받기 때문에 String 끼리의 주소는 다르다.<br>
    -리터럴("")은 상수풀에 저장된 메모리를 확인하여 동일한 데이터가 있는 경우 주소를 참조하게 된다.
    따라서 같은 내용의 리터럴 끼리는 같은 주소를 공유한다.
 </div>
@@ -93,7 +96,8 @@
 <details>
 <summary>⭐️ 추가 과제: 람다(lambda)에 대해 알아볼까요?</summary>
 <div markdown="1">
-// 익명함수를 의미하여 수학에서의 함수를 보다 간단하게 작성 가능하다.
+// 
+ 익명함수를 의미하여 수학에서의 함수를 보다 간단하게 작성 가능하다.
 </div>
 </details>
 <br>
@@ -101,7 +105,8 @@
 <details>
 <summary>⭐️ 추가 과제: 스트림(stream)에 대해 알아볼까요?</summary>
 <div markdown="1">
-// 컬렉션에 저장되어있는 엘리먼트들을 하나씩 순회하면서 처리할 수 있는 코드패턴이다.
+// 
+ 컬렉션에 저장되어있는 엘리먼트들을 하나씩 순회하면서 처리할 수 있는 코드패턴이다.
 </div>
 </details>
 <br>
